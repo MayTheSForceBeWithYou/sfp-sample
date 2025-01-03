@@ -15,6 +15,7 @@
     "precommit": "lint-staged"
   },
   "devDependencies": {
+    "@flxbl-io/sfp": "^39.4.1",
     "@lwc/eslint-plugin-lwc": "^1.1.2",
     "@prettier/plugin-xml": "^3.2.2",
     "@salesforce/eslint-config-lwc": "^3.2.3",

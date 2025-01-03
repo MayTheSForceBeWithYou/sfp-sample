@@ -5,18 +5,15 @@
   },
   "remoteUser": "node",
   "features": {
-	  "ghcr.io/devcontainers-extra/features/salesforce-sfdx:1": {
-      
-    }
+    "ghcr.io/devcontainers-extra/features/salesforce-sfdx:1": {}
   },
   "customizations": {
     "vscode": {
-      "extensions": [
-        "salesforce.salesforcedx-vscode-expanded"
-      ],
+      "extensions": ["salesforce.salesforcedx-vscode-expanded"],
       "settings": {
-        "salesforcedx-vscode-apex.java.home": "/usr/lib/jvm/java-17"
+        "salesforcedx-vscode-apex.java.home": "/usr/lib/jvm/java-11-openjdk-arm64"
       }
     }
-  }
+  },
+  "postCreateCommand": "chmod +x .husky/pre-commit && npm install"
 }
