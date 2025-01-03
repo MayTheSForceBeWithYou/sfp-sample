@@ -1,0 +1,22 @@
+{
+  "name": "Salesforce with sfp",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "remoteUser": "node",
+  "features": {
+	  "ghcr.io/devcontainers-extra/features/salesforce-sfdx:1": {
+      
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "salesforce.salesforcedx-vscode-expanded"
+      ],
+      "settings": {
+        "salesforcedx-vscode-apex.java.home": "/usr/lib/jvm/java-17"
+      }
+    }
+  }
+}
