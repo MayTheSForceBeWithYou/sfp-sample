@@ -1,0 +1,7 @@
+{
+  "name": "packageA2",
+  "description": "Package A2",
+  "path": "packages/packageA2",
+  "type": "Unlocked",
+  "orgDependent": false
+}

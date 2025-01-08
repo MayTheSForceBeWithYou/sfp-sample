@@ -5,7 +5,7 @@
   },
   "remoteUser": "node",
   "features": {
-    "ghcr.io/devcontainers-extra/features/salesforce-sfdx:1": {}
+    "ghcr.io/devcontainers-extra/features/salesforce-cli:1": {}
   },
   "customizations": {
     "vscode": {
